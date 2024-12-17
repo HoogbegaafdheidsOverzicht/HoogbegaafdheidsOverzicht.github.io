@@ -1,2 +1,2 @@
-# HoogbegaafdheidsOverzicht.github.io
+# Hoogbegaafdheid Overzicht
 Antwoorden op vragen over hoogbegaafdheid
