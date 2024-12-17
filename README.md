@@ -15,4 +15,4 @@ Zoals het model van Tessa Kieboom laat zien gaat hoogbegaafdheid niet alleen om 
 
 Onderstaand plaatje geeft een overzicht van een aantal van dat soort groepen kenmerken.
 
-![Overzicht van kenmerken van hoogbegaafdheid in relatie tot andere groepen kenmerken](/assets/images/HB_overzicht.jpg "Overzicht van kenmerken van hoogbegaafdheid in relatie tot andere groepen kenmerken")
+![Overzicht van kenmerken van hoogbegaafdheid in relatie tot andere groepen kenmerken](/assets/images/HB_overzicht.jepg "Overzicht van kenmerken van hoogbegaafdheid in relatie tot andere groepen kenmerken")
