@@ -21,4 +21,4 @@ Onderstaand plaatje geeft een overzicht van een aantal van dat soort groepen ken
 
 ## Voor kinderen
 
-<a href="https://partner.bol.com/click/click?p=2&t=url&s=1411666&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsurvivalgids-wat-als-je-add-hebt%2F9200000119256935%2F&name=Survivalgids%20-%20Wat%20als%20je%20AD(H)D%20hebt%3F%2C%20S%C3%A9veri...">Wat als je hoogbegaafd bent - Tessa Kieboom</a>
+<a href="https://partner.bol.com/click/click?p=2&t=url&s=1411666&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsurvivalgids-wat-als-je-add-hebt%2F9200000119256935%2F&name=Survivalgids%20-%20Wat%20als%20je%20AD(H)D%20hebt%3F%2C%20S%C3%A9veri..." target="_blank">Wat als je hoogbegaafd bent - Tessa Kieboom</a>
