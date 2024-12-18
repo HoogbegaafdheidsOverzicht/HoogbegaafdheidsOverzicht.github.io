@@ -1,7 +1,9 @@
-<nav>
-  <ul>
-    {% for item in site.menu %}
-      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-    {% endfor %}
-  </ul>
-</nav>
+<div class="menu">
+  <nav>
+    <ul>
+      {% for item in site.menu %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
