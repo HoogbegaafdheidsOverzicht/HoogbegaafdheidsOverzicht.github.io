@@ -1,26 +1,3 @@
-/* Styling voor de bestaande nav-menu (als je deze al hebt) */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 20px;
-}
-
-nav li {
-  display: inline;
-}
-
-nav a {
-  text-decoration: none;
-  color: #0366d6; /* Cayman blauw */
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
 /* Basis layout voor de pagina met menu aan de zijkant */
 .layout {
   display: flex;
@@ -59,4 +36,19 @@ nav a:hover {
 .layout .content {
   flex: 1; /* Content neemt de resterende ruimte in */
   padding: 20px;
+}
+
+/* Verberg het menu als je dat wilt op kleinere schermen (voor responsiviteit) */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column; /* Menu boven de content bij smalle schermen */
+  }
+
+  .layout .menu {
+    width: 100%; /* Menu neemt de volle breedte in op kleine schermen */
+  }
+
+  .layout .content {
+    width: 100%; /* Content neemt de volle breedte in op kleine schermen */
+  }
 }
