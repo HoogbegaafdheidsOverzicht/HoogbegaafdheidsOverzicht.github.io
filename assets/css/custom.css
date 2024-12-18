@@ -1,3 +1,4 @@
+/* Styling voor de bestaande nav-menu (als je deze al hebt) */
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -20,3 +21,42 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Basis layout voor de pagina met menu aan de zijkant */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Menu (sidebar) styling */
+.layout .menu {
+  width: 250px; /* Breedte van het menu */
+  background-color: #f8f9fa; /* Lichte achtergrondkleur */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.layout .menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.layout .menu li {
+  margin-bottom: 10px;
+}
+
+.layout .menu a {
+  text-decoration: none;
+  color: #0366d6; /* Cayman blauw */
+  font-weight: bold;
+}
+
+.layout .menu a:hover {
+  text-decoration: underline;
+}
+
+/* Content styling */
+.layout .content {
+  flex: 1; /* Content neemt de resterende ruimte in */
+  padding: 20px;
+}
