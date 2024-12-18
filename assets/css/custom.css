@@ -1,13 +1,13 @@
-/* Basis layout voor de pagina met menu aan de zijkant */
+/* Layout voor het menu aan de zijkant */
 .layout {
   display: flex;
   min-height: 100vh;
 }
 
-/* Menu (sidebar) styling */
+/* Menu styling */
 .layout .menu {
   width: 250px; /* Breedte van het menu */
-  background-color: #f8f9fa; /* Lichte achtergrondkleur */
+  background-color: #f8f9fa; /* Achtergrondkleur van het menu */
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -24,7 +24,7 @@
 
 .layout .menu a {
   text-decoration: none;
-  color: #0366d6; /* Cayman blauw */
+  color: #0366d6; /* Blauw voor de links */
   font-weight: bold;
 }
 
@@ -34,21 +34,6 @@
 
 /* Content styling */
 .layout .content {
-  flex: 1; /* Content neemt de resterende ruimte in */
+  flex: 1; /* De content neemt de resterende ruimte in */
   padding: 20px;
-}
-
-/* Verberg het menu als je dat wilt op kleinere schermen (voor responsiviteit) */
-@media (max-width: 768px) {
-  .layout {
-    flex-direction: column; /* Menu boven de content bij smalle schermen */
-  }
-
-  .layout .menu {
-    width: 100%; /* Menu neemt de volle breedte in op kleine schermen */
-  }
-
-  .layout .content {
-    width: 100%; /* Content neemt de volle breedte in op kleine schermen */
-  }
 }
