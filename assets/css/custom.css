@@ -1,4 +1,4 @@
-/* Forceer flexbox-layout voor de layout */
+/* Layout voor het menu aan de zijkant */
 .layout {
   display: flex;
   min-height: 100vh;
@@ -6,20 +6,12 @@
 
 /* Menu styling */
 .layout .menu {
-  width: 250px;
-  background-color: #f8f9fa;
+  width: 250px; /* Breedte van het menu */
+  background-color: #f8f9fa; /* Achtergrondkleur van het menu */
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Content styling */
-.layout .content {
-  flex: 1;
-  padding: 20px;
-  margin-left: 270px; /* Zorgt ervoor dat de content niet onder het menu valt */
-}
-
-/* Extra styling voor menu items */
 .layout .menu ul {
   list-style-type: none;
   padding: 0;
@@ -32,10 +24,16 @@
 
 .layout .menu a {
   text-decoration: none;
-  color: #0366d6;
+  color: #0366d6; /* Blauw voor de links */
   font-weight: bold;
 }
 
 .layout .menu a:hover {
   text-decoration: underline;
+}
+
+/* Content styling */
+.layout .content {
+  flex: 1; /* De content neemt de resterende ruimte in */
+  padding: 20px;
 }
