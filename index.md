@@ -3,7 +3,6 @@ layout: default
 title: "Hoogbegaafdheid Overzicht"
 ---
 <div class="layout">
-  {% include menu.html %}
   <div class="content">
     {{ content }}
   </div>
