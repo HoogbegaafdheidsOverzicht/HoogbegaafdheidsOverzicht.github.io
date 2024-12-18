@@ -1,2 +1,22 @@
-sass:
-  style: compressed
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0366d6; /* Cayman blauw */
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
