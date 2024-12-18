@@ -2,11 +2,6 @@
 layout: default
 title: "Hoogbegaafdheid Overzicht"
 ---
-<div class="layout">
-  <div class="content">
-    {{ content }}
-  </div>
-</div>
 
 # Wat is hoogbegaafdheid
 Hoogbegaafdheid kan op diverse manieren worden beschreven. In het algemeen gaat het over slimme, opmerkzame, gevoelige mensen met een 'grote motor', waarbij het de kunst is om die motor goed in werking te kunnen stellen om uit het leven te halen wat de persoon wil.
