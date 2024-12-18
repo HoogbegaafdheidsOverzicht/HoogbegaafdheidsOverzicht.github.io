@@ -3,7 +3,12 @@ layout: default
 title: "Over Hoogbegaafdheid Overzicht"
 permalink: /about/
 ---
-{% include menu.html %}
+<div class="layout">
+  {% include menu.html %}
+  <div class="content">
+    {{ content }}
+  </div>
+</div>
 
 Dit is de about pagina.
 
