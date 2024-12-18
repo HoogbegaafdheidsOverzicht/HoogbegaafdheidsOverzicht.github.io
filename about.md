@@ -1,6 +1,6 @@
 ---
 layout: page
 title: "Over Hoogbegaafdheid Overzicht"
-permalink: /about
+permalink: /about/
 ---
 Dit is de about pagina
