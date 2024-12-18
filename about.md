@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Over Hoogbegaafdheid Overzicht"
 permalink: /about/
 ---
-Dit is de about pagina
+{% include menu.html %}
+
+Dit is de about pagina.
+
