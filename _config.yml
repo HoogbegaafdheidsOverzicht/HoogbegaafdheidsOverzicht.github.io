@@ -4,3 +4,6 @@ plugins:
 
 title: Hoogbegaafdheid Overzicht
 description: Antwoorden op vragen over hoogbegaafdheid
+
+header_pages:
+  - about.md
